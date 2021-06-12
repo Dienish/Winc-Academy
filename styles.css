@@ -8,10 +8,28 @@ body {
   line: height 1.6em;
 }
 
-.black-border {
+.Container {
+  background-color: teal;
   border: 1px solid white;
   padding: 5px;
+  margin: 0 auto;
+}
+
+#navbalk {
+  background-color: #286269;
+  border: 1px solid #fff;
+  padding: 5px;
   margin: 10px;
+}
+
+#navbalk ul {
+  padding: 0;
+  list-style: none;
+}
+
+#navbalk li {
+  display: inline-block;
+  padding-right: 1.6em;
 }
 
 #leuk ul {
