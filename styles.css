@@ -5,24 +5,21 @@ body {
   text-align: center;
   font-family: Arial, Times New Roman, Helvetica;
   font: size 16px;
-  line-height: 1.6em; 
-  
+  line-height: 1.6em;
 }
-
-
 
 body a {
   text-decoration: none;
   color: white;
   border: 5px solid silver;
   border-radius: 50%;
-  Padding: 4px 50px;
+  padding: 4px 50px;
 }
 
 body a:hover {
-color: white;
-background-color: teal;
-text-decoration: none;
+  color: white;
+  background-color: teal;
+  text-decoration: none;
 }
 
 body a:visited {
@@ -35,24 +32,19 @@ body a:visited {
   border: 1px solid white;
   padding: 5px;
   margin: 0 auto;
-  color: #286270
-  
+  color: #286270;
 }
 
 #navbalk {
   background-color: #286269;
   border: 1px solid #fff;
-
 }
 
 #navbalk ul {
   padding: 0;
   list-style: none;
   text-align: center;
-  
 }
-
- 
 
 #navbalk li {
   display: inline-block;
@@ -62,8 +54,6 @@ body a:visited {
   color: white;
   padding: 5px;
   margin: 10px;
-  
- 
 }
 
 #leuk ul {
@@ -90,22 +80,18 @@ body a:visited {
   font-size: 25px;
 }
 
-@media screen and (min-width: 1024px) {
-body {
-  background-color: #fff;
-  color: #286269;
-  font-size: 1.5em;
-  line-height: 40px;
-
+@media (min-width: 1024px) {
+  body {
+    background-color: #fff;
+    color: #286269;
+    font-size: 1.5em;
+    line-height: 40px;
+  }
+  .copyright {
+    background-color: teal;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 0 auto;
+    color: #286270;
+  }
 }
-.copyright {
-  background-color: teal;
-  border: 1px solid white;
-  padding: 5px;
-  margin: 0 auto;
-  color: #286270
-}
-  
-}
-
-  
