@@ -52,8 +52,8 @@ body a:visited {
   border-radius: 50%;
   background-color: slategrey;
   color: white;
-  padding: 5px;
-  margin: 10px;
+  padding: 2px;
+  margin: 5px;
 }
 
 #leuk ul {
@@ -78,6 +78,12 @@ body a:visited {
   color: black;
   text-align: center;
   font-size: 25px;
+}
+
+.textbox {
+  text-align: left;
+  border: 3px solid #286270;
+  padding-left: 5px;
 }
 
 @media (min-width: 1024px) {

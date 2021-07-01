@@ -3,35 +3,79 @@
   <head>
     <title>About me</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <form name="contact" method="POST" data-netlify="true">
+      <p>
+        <label>Your Name: <input type="text" name="name" /></label>   
+      </p>
+      <p>
+        <label>Your Email: <input type="email" name="email" /></label>
+      </p>
+      <p>
+        <label>Your Role: <select name="role[]" multiple>
+          <option value="leader">Leader</option>
+          <option value="follower">Follower</option>
+        </select></label>
+      </p>
+      <p>
+        <label>Message: <textarea name="message"></textarea></label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
+
+
   </head>
 
-  <nav>
-    <div class="black-border">
-      <a href="Index.HTML">
-        <h4>Homepage</h4>
-      </a>
-    </div>
-  </nav>
 
   <body>
     <header>
-      <img src="foto.jpg" width="250" />
-      <hr />
-    </header>
+    <div class="Container">
+      <h1>Curriculum Vitae</h1>
+    </div>
+  </header>
+
+  <nav id="navbalk">
+    <ul>
+      <li><a href="Index.html"> Home </a></li>
+      <li><a href="About.html"> Wie ben ik?</a></li>
+      <li><a href="opleidingen.html"> Opleidingen </a></li>
+      <li><a href="werkervaring.html"> Werkervaring </a></li>
+      <li><a href="talen.html"> Talen </a></li>
+      <li><a href="vaardigheden.html"> Vaardigheden </a></li>
+      <li><a href="competenties.html"> competentie </a></li>
+      <li><a href="contact.html"> Contact </a></li>
+    </ul>
+  </nav>
 
     <main>
       <section>
         <p>
-          Mijn naam is Dienish Murli. Ik ben 32 jaar oud, vader van 3 kinderen
-          en wil graag een carriéreswitch maken richting IT
+          Mocht er interesses zijn opgewekt of wilt heeft u een vraag ?
+          <br>
+          Bel of gebruik de contact formulier hier onder en ik neem zo spoedig mogelijk contact met U op.
         </p>
+        <br>
+
+        <p>
+          <div class="textbox">
+          <input type="text" value="Naam">
+          <br>
+          <input type="text" value="Telefoon nummer">
+          <br>
+          <input type="email" value="E-mail">
+          <br>
+          <p>Vraag of opmerkingen</p>
+          <textarea>
+            
+          </textarea>
+          <br>
+          <input type="submit" value="Versturen">
+          </div>
+        </p>      
       </section>
 
-      <section>
-        <nav>
-          <a href="https://www.google.nl" target="blank"> Google </a>
-        </nav>
-      </section>
     </main>
 
     <footer id="green-background">
