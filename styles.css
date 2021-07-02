@@ -80,10 +80,35 @@ body a:visited {
   font-size: 25px;
 }
 
-.textbox {
+.form {
   text-align: left;
   border: 3px solid #286270;
   padding-left: 5px;
+  font-family: "Times New Roman", Times;
+}
+
+.file {
+  font-size: 80%;
+}
+
+.button {
+  color: #fff;
+  background-color: slategray;
+  border: 3px solid silver;
+  border-radius: 50%;
+  font-size: 85%;
+  width: 200px;
+  margin: 30px;
+  box-shadow: rgb(6, 78, 78) 0px 0px 0px 7px;
+}
+
+input,
+select {
+  font-size: 0.9em;
+}
+textarea,
+select {
+  font-size: 0.9em;
 }
 
 @media (min-width: 1024px) {
